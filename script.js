@@ -1,0 +1,1 @@
+function toggleMenu(){document.getElementById('menu').classList.toggle('show')}document.querySelectorAll('#menu a').forEach(a=>a.addEventListener('click',()=>document.getElementById('menu').classList.remove('show')));
